@@ -1,5 +1,8 @@
 Revision history for Perl extension URI::sftp.
 
+0.02  Nov 26, 2012
+        - setting the default port is not really required
+
 0.01  May 3, 2005
 	- original version; created by h2xs 1.23 with options
 		-AX -n URI::sftp

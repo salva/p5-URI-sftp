@@ -1,13 +1,13 @@
 package URI::sftp;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 use strict;
 use warnings;
 
 use base qw(URI::_server URI::_userpass);
 
-sub default_port { 22 }
+# sub default_port { 22 }
 
 sub path { shift->path_query(@_) }  # XXX
 
@@ -37,8 +37,12 @@ Salvador FandiE<ntilde>o <sfandino@yahoo.com>
 
 =head1 COPYRIGHT
 
-All rights reserved.  This program is free software; you can
-redistribute it and/or modify it under the same terms as Perl itself.
+Copyright (C) 2005, 2012 by Salvador FandiE<ntilde>o
+(sfandino@yahoo.com).
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself, either Perl version 5.8.4 or,
+at your option, any later version of Perl 5 you may have available.
 
 =cut
 
